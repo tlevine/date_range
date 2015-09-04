@@ -11,8 +11,8 @@ def date_range(*args):
     >>> list(date_range(datetime.date(2015, 1, 1), datetime.date(2015, 1, 6), 2))
     [datetime.date(2015, 1, 1), datetime.date(2015, 1, 3), datetime.date(2015, 1, 5)]
 
-#   >>> list(datetime.date(2015, 1, 1), datetime.date(2015, 1, 6), datetime.timedelta(2))
-#   [datetime.date(2015, 1, 1), datetime.date(2015, 1, 3), datetime.date(2015, 1, 5)]
+    >>> list(date_range(datetime.date(2015, 1, 1), datetime.date(2015, 1, 6), datetime.timedelta(2)))
+    [datetime.date(2015, 1, 1), datetime.date(2015, 1, 3), datetime.date(2015, 1, 5)]
 
     '''
     if len(args) == 3:
