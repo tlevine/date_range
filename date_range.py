@@ -8,7 +8,7 @@ def date_range(*args):
     >>> list(date_range(datetime.date(2015, 1, 1), datetime.date(2015, 1, 3)))
     [datetime.date(2015, 1, 1), datetime.date(2015, 1, 2)]
 
-    >>> list(datetime.date(2015, 1, 1), datetime.date(2015, 1, 6), 2)
+    >>> list(date_range(datetime.date(2015, 1, 1), datetime.date(2015, 1, 6), 2))
     [datetime.date(2015, 1, 1), datetime.date(2015, 1, 3), datetime.date(2015, 1, 5)]
 
 #   >>> list(datetime.date(2015, 1, 1), datetime.date(2015, 1, 6), datetime.timedelta(2))
