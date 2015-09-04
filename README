@@ -1,0 +1,3 @@
+Run tests like so. ::
+
+    pytest test.py
