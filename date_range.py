@@ -17,7 +17,11 @@ def date_range(*args):
     '''
     if len(args) == 3:
         start, stop, step = args
-        parsed_args = (start.toordinal(), stop.toordinal(), step)
+        if isinstance(step, datetime.timedelta):
+            int_step = step.days
+        else:
+            int_step = step
+        parsed_args = (start.toordinal(), stop.toordinal(), int_step)
     else:
         parsed_args = tuple(x.toordinal() for x in args)
 
