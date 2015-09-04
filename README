@@ -12,7 +12,7 @@ Install from PyPI. ::
 
 Run tests like so. ::
 
-    pytest test.py
+    python test.py
 
 It currently supports only full dates, just as range only supports integers,
 It would be cool to add support for producing datetimes spaced by something smaller,

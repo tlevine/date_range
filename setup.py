@@ -10,7 +10,6 @@ setup(name='date_range',
     ],
     py_modules=['date_range'],
     install_requires = [],
-    tests_require = ['pytest'],
     version='0.0.1',
     license='LGPL'
 )
