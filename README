@@ -15,5 +15,5 @@ Run tests like so. ::
     pytest test.py
 
 It currently supports only full dates, just as range only supports integers,
-but it would be cool to add support for producing datetimes spaced by something
-smaller, like half-days; this would be akin to adding support for floats in range.
+It would be cool to add support for producing datetimes spaced by something smaller,
+like half-days; this would be akin to adding support for floats in range.
