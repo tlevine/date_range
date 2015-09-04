@@ -1,3 +1,15 @@
+In Python I can produce a range of numbers like this. ::
+
+    range(1, 10)
+
+``date_range`` produces a range of dates like this. ::
+
+    date_range(datetime.date(1990, 3, 30), datetime.date.today())
+
+Install from PyPI. ::
+
+    pip install date_range
+
 Run tests like so. ::
 
     pytest test.py
