@@ -1,4 +1,8 @@
-from ..date_range import date_range
+import datetime
+
+import pytest
+
+from date_range import date_range
 
 testcases = [
     (datetime.date(2015, 1, 1), datetime.date(2015, 1, 3),
